@@ -1,0 +1,21 @@
+{
+  "name": "evolution-api",
+  "version": "1.0.0",
+  "main": "server.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsx server.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@wppconnect-team/wppconnect": "latest",
+    "axios": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest"
+  },
+  "devDependencies": {
+    "tsx": "latest",
+    "typescript": "latest"
+  }
+}
